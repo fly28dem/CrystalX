@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "blue_crystal",
+    "customModelName": "Normal",
+    "name": "Crystal X Blue",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CrystalX"
+    },
+    "stackSize": 4,
+    "nutritionalValue": 0,
+    "saturation": 1.0,
+    "eatingSpeed": 25,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CrystalBlueWhenEaten"
+    }
+  }
+}

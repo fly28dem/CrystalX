@@ -1,0 +1,12 @@
+{
+  "block.cristalx.lapis_block": "Lapis Block",
+  "subtitles.crystalx_crystal_any_place": "Размещён кристалл",
+  "item.cristalix.crystal_x_blue": "Синий кристалл",
+  "block.cristalx.crystal_blue_block": "Crystal Blue Block",
+  "item.cristalx.crystal_x_blue": "Crystal X Blue",
+  "block.cristalix.lapis_block": "Ларизутный блок",
+  "subtitles.crystalx_crystal_any_destroy": "Кристалл разбился",
+  "block.cristalix.crystal_blue_block": "Синий кристалл",
+  "itemGroup.tabcrystal_x": "Crystal X",
+  "subtitles.crystalx_crystalany_default": "Рядом кристалл"
+}

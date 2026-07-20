@@ -1,0 +1,8 @@
+{
+  "parent": "cristalx:custom/crystalone",
+  "textures": {
+    "all": "cristalx:blocks/texture",
+    "particle": "cristalx:blocks/texture",
+    "1": "cristalx:blocks/texture"
+  }
+}

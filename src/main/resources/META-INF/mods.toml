@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="cristalx"
+version="0.0.1"
+displayName="CristalX"
+credits="A mod born of childhood fantasies about a game involving crystals."
+displayURL="https://github.com/fly28dem/CrystaliX"
+authors="FlyDem, MCreator"
+description='''
+A mod born of childhood fantasies about a game involving crystals.
+'''
+
+[[dependencies.cristalx]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
