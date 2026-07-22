@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "crystalx:blocks/lasip_block",
+    "up": "crystalx:blocks/lasip_block",
+    "north": "crystalx:blocks/lasip_block",
+    "east": "crystalx:blocks/lasip_block",
+    "south": "crystalx:blocks/lasip_block",
+    "west": "crystalx:blocks/lasip_block",
+    "particle": "crystalx:blocks/lasip_block"
+  }
+}

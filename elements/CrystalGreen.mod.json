@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "green_crystal",
+    "customModelName": "Normal",
+    "name": "Crystal Green",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CrystalX"
+    },
+    "stackSize": 4,
+    "nutritionalValue": 0,
+    "saturation": 0.19999999999999998,
+    "eatingSpeed": 30,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CrystalGreenWhenEated"
+    }
+  }
+}

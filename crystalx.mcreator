@@ -1,0 +1,448 @@
+{
+  "mod_elements": [
+    {
+      "name": "LapisBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block"
+    },
+    {
+      "name": "CrystalBlue",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_blue_block",
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "CrystalX",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_x"
+    },
+    {
+      "name": "CrystalBlueWhenEaten",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_blue_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "CrystalXBlue",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_x_blue",
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "BlueCrystallinityWhenActive",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystallinity_when_active",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "BlueCrystallinity",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystallinity",
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "BlueCrystallinityWhenEffectEnd",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystallinity_when_effect_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "CrystalYellow",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_yellow",
+      "path": "~/Yellow Crystal"
+    },
+    {
+      "name": "CrystalYellowInHand",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_yellow_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Yellow Crystal"
+    },
+    {
+      "name": "CrystalGreenWhenEated",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_green_when_eated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Green Crystal"
+    },
+    {
+      "name": "CrystalGreen",
+      "type": "food",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_green",
+      "path": "~/Green Crystal"
+    },
+    {
+      "name": "CrystalRed",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_red",
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "RedCrystallinity",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystallinity",
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "RedCrystallinityWhenStart",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystallinity_when_start",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "CrystalRedWhenEated",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_red_when_eated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "RedCrystallinityWhenEnd",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystallinity_when_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "CrystalYellowBlock",
+      "type": "plant",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_yellow_block",
+      "path": "~/Yellow Crystal"
+    },
+    {
+      "name": "CrystalGreenBlock",
+      "type": "plant",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_green_block",
+      "path": "~/Green Crystal"
+    },
+    {
+      "name": "CrystalRedBlock",
+      "type": "plant",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_red_block",
+      "path": "~/Red Crystal"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "simultaneously_eated_blue_crystals",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "simultaneously_eated_red_crystals",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "crystalx_crystal_any_destroy",
+      "files": [
+        "crystal_destroy"
+      ],
+      "category": "block",
+      "subtitle": "Crystall destroy"
+    },
+    {
+      "name": "crystalx_crystalany_default",
+      "files": [
+        "crystal_step_use"
+      ],
+      "category": "neutral",
+      "subtitle": "The crystal is nearby"
+    },
+    {
+      "name": "crystalx_crystal_any_place",
+      "files": [
+        "crystal_place"
+      ],
+      "category": "neutral",
+      "subtitle": "Crystal place"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "block.crystalx.crystal_blue_block": "Синий кристалл",
+      "item.crystalx.crystal_yellow": "Жёлтый кристалл",
+      "subtitles.crystalx_crystal_any_place": "Размещён кристалл",
+      "item.crystalx.crystal_x_blue": "Синий кристалл",
+      "block.crystalx.crystal_yellow_block": "Жёлтый кристалл",
+      "block.crystalx.crystal_green_block": "Зелёный кристалл",
+      "item.crystalx.crystal_red": "Красный кристалл",
+      "block.crystalx.lapis_block": "Ларизутный блок",
+      "subtitles.crystalx_crystalany_default": "Рядом кристалл",
+      "item.crystalx.crystal_green": "Зелёный кристалл",
+      "effect.red_crystallinity": "Красный кристалл",
+      "subtitles.crystalx_crystal_any_destroy": "Кристалл разбился",
+      "effect.blue_crystallinity": "Синий кристалл",
+      "itemGroup.tabcrystal_x": "Crystal X",
+      "block.crystalx.crystal_red_block": "Красный кристалл"
+    },
+    "en_us": {
+      "block.crystalx.crystal_blue_block": "Crystal Blue Block",
+      "item.crystalx.crystal_yellow": "Yellow Crystal",
+      "subtitles.crystalx_crystal_any_place": "Crystal place",
+      "item.crystalx.crystal_x_blue": "Crystal X Blue",
+      "block.crystalx.crystal_yellow_block": "Crystal Yellow Block",
+      "block.crystalx.crystal_green_block": "Crystal Green",
+      "item.crystalx.crystal_red": "Crystal Red",
+      "block.crystalx.lapis_block": "Lapis Block",
+      "subtitles.crystalx_crystalany_default": "The crystal is nearby",
+      "item.crystalx.crystal_green": "Green Crystal",
+      "effect.red_crystallinity": "Red Crystal",
+      "subtitles.crystalx_crystal_any_destroy": "Crystal destroy",
+      "effect.blue_crystallinity": "Blue Crystal",
+      "itemGroup.tabcrystal_x": "Crystal X",
+      "block.crystalx.crystal_red_block": "Red Crystal Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blue Crystal",
+        "children": []
+      },
+      {
+        "name": "Red Crystal",
+        "children": []
+      },
+      {
+        "name": "Yellow Crystal",
+        "children": []
+      },
+      {
+        "name": "Green Crystal",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "crystalx",
+    "modName": "CrystalX",
+    "version": "0.0.1",
+    "description": "A mod born of childhood fantasies about a game involving crystals.",
+    "author": "FlyDem, MCreator",
+    "websiteURL": "https://github.com/fly28dem/CrystalX",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "blue_crystal",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "A mod born of childhood fantasies about a game involving crystals.",
+    "modElementsPackage": "net.flydem.crystalx",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

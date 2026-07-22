@@ -3,17 +3,17 @@
   "_type": "plant",
   "definition": {
     "renderType": 2,
-    "texture": "blue_crystal_block_texture",
+    "texture": "red_crystal_block_texture",
     "textureBottom": "",
-    "customModelName": "crystalxa:blue_crystal",
-    "itemTexture": "crystalxabluegui",
+    "customModelName": "crystalxa:red_crystal",
+    "itemTexture": "crystalxaredgui",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "suspiciousStewEffect": "SPEED",
-    "suspiciousStewDuration": 100,
+    "suspiciousStewEffect": "STRENGTH",
+    "suspiciousStewDuration": 51,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
@@ -30,13 +30,13 @@
         "subtract": false
       }
     ],
-    "name": "Crystal Blue Block",
+    "name": "Red Crystal Block",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CrystalX"
     },
-    "hardness": 0.30000000000000004,
-    "resistance": 0.5,
+    "hardness": 0.4,
+    "resistance": 0.0,
     "luminance": 1,
     "unbreakable": false,
     "isCustomSoundType": true,
@@ -60,7 +60,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:CrystalXBlue"
+      "value": "CUSTOM:CrystalRed"
     },
     "dropAmount": 1,
     "forceTicking": false,
@@ -73,28 +73,28 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 15,
-    "fireSpreadSpeed": 60,
+    "flammability": 24,
+    "fireSpreadSpeed": 73,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.DIRT#0"
       },
       {
-        "value": "Blocks.SAND#0"
+        "value": "Blocks.GRASS"
       },
       {
         "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "Blocks.SAND#0"
       }
     ],
     "frequencyOnChunks": 2,
@@ -102,6 +102,6 @@
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 8
+    "patchSize": 7
   }
 }

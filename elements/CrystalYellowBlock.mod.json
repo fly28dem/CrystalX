@@ -3,16 +3,16 @@
   "_type": "plant",
   "definition": {
     "renderType": 2,
-    "texture": "blue_crystal_block_texture",
+    "texture": "yellow_crystal_block_texture",
     "textureBottom": "",
-    "customModelName": "crystalxa:blue_crystal",
-    "itemTexture": "crystalxabluegui",
+    "customModelName": "crystalxa:yellow_crystal",
+    "itemTexture": "crystalxayellowgui",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewEffect": "SATURATION",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
@@ -30,14 +30,14 @@
         "subtract": false
       }
     ],
-    "name": "Crystal Blue Block",
+    "name": "Crystal Yellow Block",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CrystalX"
     },
     "hardness": 0.30000000000000004,
-    "resistance": 0.5,
-    "luminance": 1,
+    "resistance": 0.0,
+    "luminance": 4,
     "unbreakable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
@@ -60,11 +60,11 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:CrystalXBlue"
+      "value": "CUSTOM:CrystalYellow"
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -73,11 +73,20 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 15,
-    "fireSpreadSpeed": 60,
+    "flammability": 55,
+    "fireSpreadSpeed": 80,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
       {
         "value": "Blocks.STONE#0"
       },
@@ -85,23 +94,14 @@
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.GRASS"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
         "value": "Blocks.PLANKS#0"
       }
     ],
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 8
+    "patchSize": 5
   }
 }

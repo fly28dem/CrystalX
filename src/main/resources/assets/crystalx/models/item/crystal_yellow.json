@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "crystalx:items/yellow_crystal"
+  }
+}

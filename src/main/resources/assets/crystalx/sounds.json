@@ -1,0 +1,32 @@
+{
+  "crystalx_crystal_any_destroy": {
+    "category": "block",
+    "subtitle": "subtitles.crystalx_crystal_any_destroy",
+    "sounds": [
+      {
+        "name": "crystalx:crystal_destroy",
+        "stream": false
+      }
+    ]
+  },
+  "crystalx_crystalany_default": {
+    "category": "neutral",
+    "subtitle": "subtitles.crystalx_crystalany_default",
+    "sounds": [
+      {
+        "name": "crystalx:crystal_step_use",
+        "stream": false
+      }
+    ]
+  },
+  "crystalx_crystal_any_place": {
+    "category": "neutral",
+    "subtitle": "subtitles.crystalx_crystal_any_place",
+    "sounds": [
+      {
+        "name": "crystalx:crystal_place",
+        "stream": false
+      }
+    ]
+  }
+}

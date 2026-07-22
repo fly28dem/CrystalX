@@ -1,0 +1,17 @@
+{
+  "block.crystalx.crystal_blue_block": "Синий кристалл",
+  "item.crystalx.crystal_yellow": "Жёлтый кристалл",
+  "subtitles.crystalx_crystal_any_place": "Размещён кристалл",
+  "item.crystalx.crystal_x_blue": "Синий кристалл",
+  "block.crystalx.crystal_yellow_block": "Жёлтый кристалл",
+  "block.crystalx.crystal_green_block": "Зелёный кристалл",
+  "item.crystalx.crystal_red": "Красный кристалл",
+  "block.crystalx.lapis_block": "Ларизутный блок",
+  "subtitles.crystalx_crystalany_default": "Рядом кристалл",
+  "item.crystalx.crystal_green": "Зелёный кристалл",
+  "effect.red_crystallinity": "Красный кристалл",
+  "subtitles.crystalx_crystal_any_destroy": "Кристалл разбился",
+  "effect.blue_crystallinity": "Синий кристалл",
+  "itemGroup.tabcrystal_x": "Crystal X",
+  "block.crystalx.crystal_red_block": "Красный кристалл"
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "yellow_crystal",
+    "customModelName": "Normal",
+    "name": "Crystal Yellow",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CrystalX"
+    },
+    "stackSize": 4,
+    "nutritionalValue": 4,
+    "saturation": 0.5,
+    "eatingSpeed": 25,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "CrystalYellowInHand"
+    }
+  }
+}

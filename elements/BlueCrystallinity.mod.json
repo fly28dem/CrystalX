@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Синий кристалл",
+    "icon": "blue_crystal.png",
+    "color": {
+      "value": -14000193,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BlueCrystallinityWhenActive"
+    },
+    "onExpired": {
+      "name": "BlueCrystallinityWhenEffectEnd"
+    }
+  }
+}

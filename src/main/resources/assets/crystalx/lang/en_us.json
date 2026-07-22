@@ -1,0 +1,17 @@
+{
+  "block.crystalx.crystal_blue_block": "Crystal Blue Block",
+  "item.crystalx.crystal_yellow": "Yellow Crystal",
+  "subtitles.crystalx_crystal_any_place": "Crystal place",
+  "item.crystalx.crystal_x_blue": "Crystal X Blue",
+  "block.crystalx.crystal_yellow_block": "Crystal Yellow Block",
+  "block.crystalx.crystal_green_block": "Crystal Green",
+  "item.crystalx.crystal_red": "Crystal Red",
+  "block.crystalx.lapis_block": "Lapis Block",
+  "subtitles.crystalx_crystalany_default": "The crystal is nearby",
+  "item.crystalx.crystal_green": "Green Crystal",
+  "effect.red_crystallinity": "Red Crystal",
+  "subtitles.crystalx_crystal_any_destroy": "Crystal destroy",
+  "effect.blue_crystallinity": "Blue Crystal",
+  "itemGroup.tabcrystal_x": "Crystal X",
+  "block.crystalx.crystal_red_block": "Red Crystal Block"
+}

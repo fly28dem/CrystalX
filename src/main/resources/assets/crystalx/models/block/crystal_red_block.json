@@ -1,0 +1,8 @@
+{
+  "parent": "crystalx:custom/crystalxa",
+  "textures": {
+    "all": "crystalx:blocks/red_crystal_block_texture",
+    "particle": "crystalx:blocks/red_crystal_block_texture",
+    "0": "crystalx:blocks/red_crystal_block_texture"
+  }
+}

@@ -3,17 +3,18 @@ loaderVersion="[36,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="cristalx"
+modId="crystalx"
 version="0.0.1"
-displayName="CristalX"
+displayName="CrystalX"
 credits="A mod born of childhood fantasies about a game involving crystals."
-displayURL="https://github.com/fly28dem/CrystaliX"
+displayURL="https://github.com/fly28dem/CrystalX"
+logoFile="logo.png"
 authors="FlyDem, MCreator"
 description='''
 A mod born of childhood fantasies about a game involving crystals.
 '''
 
-[[dependencies.cristalx]]
+[[dependencies.crystalx]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
