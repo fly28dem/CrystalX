@@ -4,31 +4,38 @@ package net.flydem.crystalx.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.flydem.crystalx.procedures.LapisBlockWhenEntityWalkingOnBlockProcedure;
 import net.flydem.crystalx.itemgroup.CrystalXItemGroup;
 import net.flydem.crystalx.CrystalxModElements;
 
+import java.util.stream.Stream;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @CrystalxModElements.ModElement.Tag
 public class LapisBlockBlock extends CrystalxModElements.ModElement {
-	@ObjectHolder("crystalx:lapis_block")
+	@ObjectHolder("crystalx:lasip_block")
 	public static final Block block = null;
 
 	public LapisBlockBlock(CrystalxModElements instance) {
-		super(instance, 1);
+		super(instance, 13);
 	}
 
 	@Override
@@ -40,8 +47,8 @@ public class LapisBlockBlock extends CrystalxModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3.6999999999999997f, 16f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.25f).jumpFactor(1.1f));
-			setRegistryName("lapis_block");
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.35f).jumpFactor(1.2000000000000002f));
+			setRegistryName("lasip_block");
 		}
 
 		@Override
@@ -60,6 +67,20 @@ public class LapisBlockBlock extends CrystalxModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
+			super.onEntityWalk(world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			BlockState blockstate = world.getBlockState(pos);
+
+			LapisBlockWhenEntityWalkingOnBlockProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

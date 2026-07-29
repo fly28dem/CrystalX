@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crystalx_big_blue_texture"
+      },
+      "name": "default"
+    },
+    "red": {
+      "map": {
+        "0": "crystalx_big_red_texture"
+      },
+      "name": "red"
+    },
+    "yellow": {
+      "map": {
+        "0": "crystalx_big_yellow_texture"
+      },
+      "name": "yellow"
+    },
+    "green": {
+      "map": {
+        "0": "crystalx_big_green_texture"
+      },
+      "name": "green"
+    }
+  }
+}

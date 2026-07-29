@@ -62,12 +62,14 @@ public class CrystalBlueWhenEatenProcedure {
 						return 0;
 					}
 				}.check(entity) + 70), (int) ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals - 1)));
+						.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals - 1), (false), (false)));
 		} else {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(BlueCrystallinityPotionEffect.potion, (int) 280,
-						(int) ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-								.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals - 1)));
+				((LivingEntity) entity)
+						.addPotionEffect(new EffectInstance(BlueCrystallinityPotionEffect.potion, (int) 280,
+								(int) ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+										.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals - 1),
+								(false), (false)));
 		}
 	}
 }

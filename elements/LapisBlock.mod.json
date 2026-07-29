@@ -71,8 +71,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.25,
-    "jumpFactor": 1.1,
+    "speedFactor": 1.35,
+    "jumpFactor": 1.2000000000000002,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -99,11 +99,11 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:SeaWaveCrystalityParticle"
     },
-    "particleSpawningShape": "Spread",
+    "particleSpawningShape": "Top",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleAmount": 3,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "LapisBlockWhenEntityWalkingOnBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

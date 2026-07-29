@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crystalx:items/crystalxaredgui"
+    "layer0": "crystalx:items/crystalxredtexturegui"
   }
 }

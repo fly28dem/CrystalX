@@ -97,11 +97,11 @@
         "value": "Blocks.COBBLESTONE"
       }
     ],
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 2,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 4
+    "patchSize": 3
   }
 }

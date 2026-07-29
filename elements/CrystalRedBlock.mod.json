@@ -6,7 +6,7 @@
     "texture": "red_crystal_block_texture",
     "textureBottom": "",
     "customModelName": "crystalxa:red_crystal",
-    "itemTexture": "crystalxaredgui",
+    "itemTexture": "crystalxredtexturegui",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -35,7 +35,7 @@
     "creativeTab": {
       "value": "CUSTOM:CrystalX"
     },
-    "hardness": 0.4,
+    "hardness": 0.30000000000000004,
     "resistance": 0.0,
     "luminance": 1,
     "unbreakable": false,
@@ -102,6 +102,6 @@
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 7
+    "patchSize": 5
   }
 }

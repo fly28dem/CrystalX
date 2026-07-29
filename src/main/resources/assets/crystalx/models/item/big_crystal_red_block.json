@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "crystalx:items/crystalx_big_red_texture_gui"
+  }
+}

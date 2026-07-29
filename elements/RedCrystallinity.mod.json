@@ -5,7 +5,7 @@
     "effectName": "Red Crystal",
     "icon": "red_crystal.png",
     "color": {
-      "value": -2089956,
+      "value": -3407872,
       "falpha": 0.0
     },
     "isInstant": false,
@@ -15,6 +15,9 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "RedCrystallinityWhenStart"
+    },
+    "onActiveTick": {
+      "name": "RedCrystallinityEveryTickParticle"
     },
     "onExpired": {
       "name": "RedCrystallinityWhenEnd"

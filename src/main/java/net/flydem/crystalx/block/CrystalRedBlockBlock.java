@@ -60,7 +60,7 @@ public class CrystalRedBlockBlock extends CrystalxModElements.ModElement {
 	public static final Block block = null;
 
 	public CrystalRedBlockBlock(CrystalxModElements instance) {
-		super(instance, 15);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -103,7 +103,7 @@ public class CrystalRedBlockBlock extends CrystalxModElements.ModElement {
 			configuredFeature = feature
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
-									.tries(7).build())
+									.tries(5).build())
 					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("crystal_red_block"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("crystalx:crystal_red_block"), configuredFeature);
@@ -124,7 +124,7 @@ public class CrystalRedBlockBlock extends CrystalxModElements.ModElement {
 									() -> new SoundEvent(new ResourceLocation("crystalx:crystalx_crystal_any_place")),
 									() -> new SoundEvent(new ResourceLocation("crystalx:crystalx_crystalany_default")),
 									() -> new SoundEvent(new ResourceLocation("crystalx:crystalx_crystalany_default"))))
-							.hardnessAndResistance(0.4f, 0f).setLightLevel(s -> 1));
+							.hardnessAndResistance(0.3f, 0f).setLightLevel(s -> 1));
 			setRegistryName("crystal_red_block");
 		}
 

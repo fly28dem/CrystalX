@@ -1,0 +1,8 @@
+{
+  "parent": "crystalx:custom/crystalx_big",
+  "textures": {
+    "all": "crystalx:blocks/crystalx_big_yellow_texture",
+    "particle": "crystalx:blocks/crystalx_big_yellow_texture",
+    "0": "crystalx:blocks/crystalx_big_yellow_texture"
+  }
+}

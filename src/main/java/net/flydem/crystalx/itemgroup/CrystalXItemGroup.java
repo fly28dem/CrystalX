@@ -13,7 +13,7 @@ import net.flydem.crystalx.CrystalxModElements;
 @CrystalxModElements.ModElement.Tag
 public class CrystalXItemGroup extends CrystalxModElements.ModElement {
 	public CrystalXItemGroup(CrystalxModElements instance) {
-		super(instance, 3);
+		super(instance, 15);
 	}
 
 	@Override

@@ -72,8 +72,7 @@ public class RedCrystallinityWhenStartProcedure {
 									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 							"attribute @p generic.attack_damage base set 2.5");
 				}
-			}
-			if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 2) {
 				if (world instanceof ServerWorld) {
 					((World) world).getServer().getCommandManager().handleCommand(
@@ -89,8 +88,7 @@ public class RedCrystallinityWhenStartProcedure {
 									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 							"attribute @p generic.attack_damage base set 6");
 				}
-			}
-			if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 4) {
 				if (world instanceof ServerWorld) {
 					((World) world).getServer().getCommandManager().handleCommand(
@@ -99,12 +97,44 @@ public class RedCrystallinityWhenStartProcedure {
 							"attribute @p generic.attack_damage base set 7.5");
 				}
 			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals >= 5) {
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 5) {
 				if (world instanceof ServerWorld) {
 					((World) world).getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							"attribute @p minecraft:generic.attack_damage base set 9");
+							"attribute @p generic.attack_damage base set 9");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 6) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.attack_damage base set 10.5");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 7) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.attack_damage base set 12");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals == 8) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.attack_damage base set 13.5");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_red_crystals >= 9) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.attack_damage base set 15.5");
 				}
 			}
 		}

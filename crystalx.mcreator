@@ -3,15 +3,16 @@
     {
       "name": "LapisBlock",
       "type": "block",
-      "sortid": 1,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lapis_block"
+      "registry_name": "lasip_block",
+      "path": "~/LasipBlock"
     },
     {
       "name": "CrystalBlue",
       "type": "plant",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_blue_block",
@@ -20,7 +21,7 @@
     {
       "name": "CrystalX",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_x"
@@ -28,7 +29,7 @@
     {
       "name": "CrystalBlueWhenEaten",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_blue_when_eaten",
@@ -45,7 +46,7 @@
     {
       "name": "CrystalXBlue",
       "type": "food",
-      "sortid": 4,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_x_blue",
@@ -54,7 +55,7 @@
     {
       "name": "BlueCrystallinityWhenActive",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_crystallinity_when_active",
@@ -87,7 +88,7 @@
     {
       "name": "BlueCrystallinity",
       "type": "potioneffect",
-      "sortid": 5,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_crystallinity",
@@ -96,7 +97,7 @@
     {
       "name": "BlueCrystallinityWhenEffectEnd",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_crystallinity_when_effect_end",
@@ -129,7 +130,7 @@
     {
       "name": "CrystalYellow",
       "type": "food",
-      "sortid": 7,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_yellow",
@@ -138,7 +139,7 @@
     {
       "name": "CrystalYellowInHand",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_yellow_in_hand",
@@ -175,7 +176,7 @@
     {
       "name": "CrystalGreenWhenEated",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_green_when_eated",
@@ -192,7 +193,7 @@
     {
       "name": "CrystalGreen",
       "type": "food",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_green",
@@ -210,7 +211,7 @@
     {
       "name": "RedCrystallinity",
       "type": "potioneffect",
-      "sortid": 11,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystallinity",
@@ -219,7 +220,7 @@
     {
       "name": "RedCrystallinityWhenStart",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystallinity_when_start",
@@ -252,7 +253,7 @@
     {
       "name": "CrystalRedWhenEated",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_red_when_eated",
@@ -269,7 +270,7 @@
     {
       "name": "RedCrystallinityWhenEnd",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystallinity_when_end",
@@ -302,7 +303,7 @@
     {
       "name": "CrystalYellowBlock",
       "type": "plant",
-      "sortid": 13,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_yellow_block",
@@ -311,7 +312,7 @@
     {
       "name": "CrystalGreenBlock",
       "type": "plant",
-      "sortid": 14,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_green_block",
@@ -320,11 +321,216 @@
     {
       "name": "CrystalRedBlock",
       "type": "plant",
-      "sortid": 15,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_red_block",
       "path": "~/Red Crystal"
+    },
+    {
+      "name": "BigCrystalBlue",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_crystal_blue",
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "BigCrystalRedBlock",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_crystal_red_block",
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "BigCrystalYellowBlock",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_crystal_yellow_block",
+      "path": "~/Yellow Crystal"
+    },
+    {
+      "name": "BigCrystalGreenBlock",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_crystal_green_block",
+      "path": "~/Green Crystal"
+    },
+    {
+      "name": "DerstoneBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "derstone_block",
+      "path": "~/DerstoneBlock"
+    },
+    {
+      "name": "BlueCrystallinityEveryTickParticle",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystallinity_every_tick_particle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "BlueCristalityParticle",
+      "type": "particle",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cristality_particle",
+      "path": "~/Blue Crystal"
+    },
+    {
+      "name": "RedCrystalityParticle",
+      "type": "particle",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystality_particle",
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "RedCrystallinityEveryTickParticle",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystallinity_every_tick_particle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Crystal"
+    },
+    {
+      "name": "MagentaCrystalityParticle",
+      "type": "particle",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_crystality_particle",
+      "path": "~/DerstoneBlock"
+    },
+    {
+      "name": "SeaWaveCrystalityParticle",
+      "type": "particle",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_wave_crystality_particle",
+      "path": "~/LasipBlock"
+    },
+    {
+      "name": "UseAllCrystal",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "use_all_crystal"
+    },
+    {
+      "name": "LapisBlockWhenEntityWalkingOnBlock",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_when_entity_walking_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/LasipBlock"
+    },
+    {
+      "name": "DerstoneBlockWhenEntityWalkingOnBlock",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "derstone_block_when_entity_walking_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DerstoneBlock"
     }
   ],
   "variable_elements": [
@@ -369,36 +575,50 @@
   ],
   "language_map": {
     "ru_ru": {
-      "block.crystalx.crystal_blue_block": "Синий кристалл",
+      "block.crystalx.big_crystal_yellow_block": "Жёлтые кристаллы",
       "item.crystalx.crystal_yellow": "Жёлтый кристалл",
+      "block.crystalx.crystal_blue_block": "Синий кристалл",
       "subtitles.crystalx_crystal_any_place": "Размещён кристалл",
       "item.crystalx.crystal_x_blue": "Синий кристалл",
       "block.crystalx.crystal_yellow_block": "Жёлтый кристалл",
+      "block.crystalx.lasip_block": "Ларизутовый блок",
+      "block.crystalx.derstone_block": "Карсный блок",
       "block.crystalx.crystal_green_block": "Зелёный кристалл",
+      "advancements.use_all_crystal.descr": "Перебробовать все виды кристаллов",
       "item.crystalx.crystal_red": "Красный кристалл",
-      "block.crystalx.lapis_block": "Ларизутный блок",
       "subtitles.crystalx_crystalany_default": "Рядом кристалл",
       "item.crystalx.crystal_green": "Зелёный кристалл",
+      "block.crystalx.big_crystal_red_block": "Красные кристаллы",
+      "advancements.use_all_crystal.title": "Распробуй всё до капли",
       "effect.red_crystallinity": "Красный кристалл",
+      "block.crystalx.big_crystal_blue": "Синие кристаллы",
       "subtitles.crystalx_crystal_any_destroy": "Кристалл разбился",
       "effect.blue_crystallinity": "Синий кристалл",
-      "itemGroup.tabcrystal_x": "Crystal X",
+      "block.crystalx.big_crystal_green_block": "Зелёные кристаллы",
+      "itemGroup.tabcrystal_x": "Кристалликс",
       "block.crystalx.crystal_red_block": "Красный кристалл"
     },
     "en_us": {
+      "block.crystalx.big_crystal_yellow_block": "Big Yellow Crystal",
+      "item.crystalx.crystal_yellow": "Crystal Yellow",
       "block.crystalx.crystal_blue_block": "Crystal Blue Block",
-      "item.crystalx.crystal_yellow": "Yellow Crystal",
       "subtitles.crystalx_crystal_any_place": "Crystal place",
       "item.crystalx.crystal_x_blue": "Crystal X Blue",
       "block.crystalx.crystal_yellow_block": "Crystal Yellow Block",
+      "block.crystalx.lasip_block": "Lasip Block",
+      "block.crystalx.derstone_block": "Derstone Block",
       "block.crystalx.crystal_green_block": "Crystal Green",
+      "advancements.use_all_crystal.descr": "Use all types of crystals",
       "item.crystalx.crystal_red": "Crystal Red",
-      "block.crystalx.lapis_block": "Lapis Block",
       "subtitles.crystalx_crystalany_default": "The crystal is nearby",
-      "item.crystalx.crystal_green": "Green Crystal",
+      "item.crystalx.crystal_green": "Crystal Green",
+      "block.crystalx.big_crystal_red_block": "Big Red Crystal",
+      "advancements.use_all_crystal.title": "Try everything",
       "effect.red_crystallinity": "Red Crystal",
+      "block.crystalx.big_crystal_blue": "Big Blue Crystal",
       "subtitles.crystalx_crystal_any_destroy": "Crystal destroy",
       "effect.blue_crystallinity": "Blue Crystal",
+      "block.crystalx.big_crystal_green_block": "Big Green Crystal",
       "itemGroup.tabcrystal_x": "Crystal X",
       "block.crystalx.crystal_red_block": "Red Crystal Block"
     }
@@ -420,6 +640,14 @@
       },
       {
         "name": "Green Crystal",
+        "children": []
+      },
+      {
+        "name": "DerstoneBlock",
+        "children": []
+      },
+      {
+        "name": "LasipBlock",
         "children": []
       }
     ]

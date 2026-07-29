@@ -1,0 +1,52 @@
+{
+  "display": {
+    "background": "crystalx:textures/blocks/lasip_block.png",
+    "icon": {
+      "item": "crystalx:crystal_x_blue"
+    },
+    "title": {
+      "translate": "advancements.use_all_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.use_all_crystal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystal_blue": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "crystalx:crystal_x_blue"
+        }
+      }
+    },
+    "crystal_red": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "crystalx:crystal_red"
+        }
+      }
+    },
+    "crystal_green": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "crystalx:crystal_yellow"
+        }
+      }
+    },
+    "crystal_yellow": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "crystalx:crystal_green"
+        }
+      }
+    }
+  }
+}

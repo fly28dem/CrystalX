@@ -99,12 +99,46 @@ public class BlueCrystallinityWhenActiveProcedure {
 							"attribute @p generic.movement_speed base set 0.195");
 				}
 			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals >= 5) {
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals == 5) {
 				if (world instanceof ServerWorld) {
 					((World) world).getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 							"attribute @p generic.movement_speed base set 0.23");
+				}
+			}
+			if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals == 6) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.movement_speed base set 0.25");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals == 7) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.movement_speed base set 0.27");
+				}
+			}
+			if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals == 8) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.movement_speed base set 0.29");
+				}
+			} else if ((entity.getCapability(CrystalxModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new CrystalxModVariables.PlayerVariables())).simultaneously_eated_blue_crystals >= 9) {
+				if (world instanceof ServerWorld) {
+					((World) world).getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+							"attribute @p generic.movement_speed base set 0.33");
 				}
 			}
 		}

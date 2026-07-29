@@ -15,6 +15,7 @@ import net.minecraft.entity.LivingEntity;
 
 import net.flydem.crystalx.procedures.BlueCrystallinityWhenEffectEndProcedure;
 import net.flydem.crystalx.procedures.BlueCrystallinityWhenActiveProcedure;
+import net.flydem.crystalx.procedures.BlueCrystallinityEveryTickParticleProcedure;
 
 import java.util.stream.Stream;
 import java.util.Map;
@@ -33,7 +34,7 @@ public class BlueCrystallinityPotionEffect {
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
-			super(EffectType.NEUTRAL, -14000193);
+			super(EffectType.NEUTRAL, -16776961);
 			setRegistryName("blue_crystallinity");
 		}
 
@@ -77,6 +78,19 @@ public class BlueCrystallinityPotionEffect {
 			BlueCrystallinityWhenActiveProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
+		@Override
+		public void performEffect(LivingEntity entity, int amplifier) {
+			World world = entity.world;
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			BlueCrystallinityEveryTickParticleProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 

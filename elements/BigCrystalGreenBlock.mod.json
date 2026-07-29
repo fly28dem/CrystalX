@@ -1,0 +1,107 @@
+{
+  "_fv": 24,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "crystalx_big_green_texture",
+    "textureBottom": "",
+    "customModelName": "crystalx_big:green",
+    "itemTexture": "crystalx_big_green_texture_gui",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "REGENERATION",
+    "suspiciousStewDuration": 119,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Big Green Crystal",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CrystalX"
+    },
+    "hardness": 0.5,
+    "resistance": 0.0,
+    "luminance": 1,
+    "unbreakable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "GLASS"
+    },
+    "breakSound": {
+      "value": "CUSTOM:crystalx_crystal_any_destroy"
+    },
+    "stepSound": {
+      "value": "CUSTOM:crystalx_crystalany_default"
+    },
+    "placeSound": {
+      "value": "CUSTOM:crystalx_crystal_any_place"
+    },
+    "hitSound": {
+      "value": "CUSTOM:crystalx_crystalany_default"
+    },
+    "fallSound": {
+      "value": "CUSTOM:crystalx_crystalany_default"
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:CrystalGreen"
+    },
+    "dropAmount": 2,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 34,
+    "fireSpreadSpeed": 65,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "frequencyOnChunks": 2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "patchSize": 2
+  }
+}

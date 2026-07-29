@@ -60,7 +60,7 @@ public class CrystalGreenBlockBlock extends CrystalxModElements.ModElement {
 	public static final Block block = null;
 
 	public CrystalGreenBlockBlock(CrystalxModElements instance) {
-		super(instance, 14);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -103,8 +103,8 @@ public class CrystalGreenBlockBlock extends CrystalxModElements.ModElement {
 			configuredFeature = feature
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
-									.tries(4).build())
-					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(1);
+									.tries(3).build())
+					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("crystal_green_block"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("crystalx:crystal_green_block"), configuredFeature);
 		}

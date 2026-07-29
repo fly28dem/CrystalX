@@ -37,7 +37,7 @@
     },
     "hardness": 0.30000000000000004,
     "resistance": 0.0,
-    "luminance": 4,
+    "luminance": 5,
     "unbreakable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
@@ -97,7 +97,7 @@
         "value": "Blocks.PLANKS#0"
       }
     ],
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 2,
     "spawnWorldTypes": [
       "Surface"
     ],

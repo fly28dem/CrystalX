@@ -1,5 +1,5 @@
 {
-  "parent": "crystalx:block/lapis_block",
+  "parent": "crystalx:block/derstone_block",
   "display": {
     "thirdperson": {
       "rotation": [

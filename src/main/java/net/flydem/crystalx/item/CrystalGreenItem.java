@@ -26,7 +26,7 @@ public class CrystalGreenItem extends CrystalxModElements.ModElement {
 	public static final Item block = null;
 
 	public CrystalGreenItem(CrystalxModElements instance) {
-		super(instance, 9);
+		super(instance, 11);
 	}
 
 	@Override

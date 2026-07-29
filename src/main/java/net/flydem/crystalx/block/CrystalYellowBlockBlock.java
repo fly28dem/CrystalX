@@ -60,7 +60,7 @@ public class CrystalYellowBlockBlock extends CrystalxModElements.ModElement {
 	public static final Block block = null;
 
 	public CrystalYellowBlockBlock(CrystalxModElements instance) {
-		super(instance, 13);
+		super(instance, 4);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -104,7 +104,7 @@ public class CrystalYellowBlockBlock extends CrystalxModElements.ModElement {
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(5).build())
-					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(1);
+					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("crystal_yellow_block"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("crystalx:crystal_yellow_block"), configuredFeature);
 		}
@@ -124,7 +124,7 @@ public class CrystalYellowBlockBlock extends CrystalxModElements.ModElement {
 							() -> new SoundEvent(new ResourceLocation("crystalx:crystalx_crystalany_default")),
 							() -> new SoundEvent(new ResourceLocation("crystalx:crystalx_crystalany_default"))))
 					.hardnessAndResistance(0.3f, 0f).setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
-					.setLightLevel(s -> 4));
+					.setLightLevel(s -> 5));
 			setRegistryName("crystal_yellow_block");
 		}
 
